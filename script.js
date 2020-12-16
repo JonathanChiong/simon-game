@@ -65,11 +65,11 @@ var gameOver = () => {
     level = 0;
     $(`#level-title`).html(`Game-over.<br>Press any key to continue`);
 
-    $("body").addClass("game-over")
-
-    playSound("wrong");
-
+    $("body").addClass("game-over");
     setTimeout(() => {
         $("body").removeClass("game-over")
     }, 200);
-}
+    
+    playSound("wrong");
+
+};
