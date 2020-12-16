@@ -1,6 +1,5 @@
 var gameSession = false;
 var level = 0;
-var counter = 0;
 var currentColor = "";
 var userPattern = [];
 var gamePattern = [];
